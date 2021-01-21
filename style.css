@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.zaglavlje {
+    background-color: rgb(77, 154, 156);
+    height: 120px;
+}
+
+.zaglavlje h1 {
+    color: rgb(17, 60, 63);
+    font-weight: bold;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 15px;
+}
+
+.meni {
+    background-color: rgba(70, 219, 224, 0.829);
+    height: 55px;
+    border: solid 1px #05292b;
+}
+
+.meni li {
+    display: inline-block;
+    text-transform: uppercase;
+    padding-left: 11%;
+	padding-top: 10px;
+	font-size: 19px;
+}
+
+.meni li a {
+    color: #315758;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+.meni a:hover {
+    color: rgba(114, 155, 158, 0.808);
+}
+
+.glavnideo {
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    background-color: rgba(206, 255, 251, 0.521);
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+.pasusi {
+    border: 4px solid  rgb(73, 124, 124);
+    height: 400px;
+    background-color: rgba(226, 255, 255, 0.637);
+    
+}
+
+.pasusi:hover {
+    background-color: rgba(199, 251, 255, 0.726);
+    margin-top: -10px;
+    margin-left: -15px;
+    -webkit-box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.95); 
+    box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.95);
+    transition: all 0.2s;
+}
+
+.pasusi h4 {
+    font-weight: bolder;
+    padding-top: 2px;
+    padding-left: 7px;
+}
+
+.pasusi p {
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.slikeclass {
+    background-color:  rgb(211, 243, 253);
+    padding: 50px;
+}
+
+.slike {
+    -webkit-box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.95); 
+    box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.95);
+}
+
+.slike:hover{
+    background-color: rgb(40, 20, 7, 0.726);
+    margin-top: -18px;
+    -webkit-box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.95); 
+    box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.95);
+    transition: all 0.2s;
+}
+
+.podnožje {
+    padding: 10px;
+    background-color: rgba(97, 159, 179, 0.726);
+    font-weight: normal;
+}
+
+.podnožje h6 {
+    font-weight: bold;
